@@ -17,63 +17,45 @@
  * limitations under the License.
  * 
  -->
-# UniTime
+# Team members
+- Mootaz Medhat Ezzat Abdelwahab (20206074)
+- Yousef Essam Aboelyazed Esmail (20206163)
+- Abdulrahman Ashraf Elmahdy     (20186012)
+- Amro Adel Farid                (20206145)
 
-Comprehensive University Timetabling System
-<https://www.unitime.org>
-
-UniTime is a comprehensive educational scheduling system that supports developing
-course and exam timetables, managing changes to these timetables, sharing rooms
-with other events, and scheduling students to individual classes.
-It is a distributed system that allows multiple university and departmental schedule managers
-to coordinate efforts to build and modify a schedule that meets their diverse organizational
-needs while allowing for minimization of student course conflicts. It can be used alone to
-create and maintain a school's schedule of classes and/or exams, or interfaced with
-an existing student information system. 
-
-The system was originally developed as a collaborative effort by faculty,
-students, and staff at universities in North America and Europe. The software
-is distributed free under an open source license in hopes that other colleges
-and universities can benefit their students through better scheduling or wish to
-contribute to ongoing research in this area. The UniTime project has become
-a sponsored project of the [Apereo Foundation][apereo] in March 2015.
-
-### Components
-- [Course Timetabling & Management][courses]
-- [Examination Timetabling][exams]
-- [Event Management][events]
-- [Student Scheduling][students]
-
+# Comprehensive University Timetabling System[UniTime]
+UniTime is a comprehensive educational scheduling system that supports developing course and exam timetables, managing changes to these timetables, sharing rooms with other events, and scheduling students to individual classes. It is a distributed system that allows multiple university and departmental schedule managers to coordinate efforts to build and modify a schedule that meets their diverse organizational needs while allowing for minimization of student course conflicts. It can be used alone to create and maintain a school's schedule of classes and/or exams, or interfaced with an existing student information system.
+### Category(ies):
+- Scheduling, Education.
+### Main Features: 
+- Student Scheduling.
+- Event Management.
+- Examination Timetabling.
+- Course Timetabling & Management.
+### System Type and Licenses:
+- The system was originally developed as a collaborative effort by faculty, students, and staff at universities in North America and Europe. 
+- The software is distributed free under an open source license in hopes that other colleges and universities can benefit their students.
+- The UniTime project has become a sponsored project of the Apereo Foundation in March 2015.
+### Supported Operating Systems: 
+- Linux.
+- Mac.
+- Windows.
 ### Tutorials
 - [Installation Instructions][install]
 - [Building UniTime][build]
 - [Setting up UniTime in Eclipse][eclipse]
 - [Customization][customization]
 - [Localization][localization]
-
 ### Links
-- [UniTime 4.6 documentation][docs]
-- [Online Documentation][help]
-- [Online Demo][demo]
-- [Downloads][downloads]
-- [Nightly Builds][builds]
-- [XML Interfaces][xml]
-- [Publications][publications]
+- [Unitime.org][unitime]
+- [Pereo Foundation][pereo]
+- [University Timetabling Code][timetablingcode]
 
-[courses]: https://www.unitime.org/uct_courses.php
-[exams]: https://www.unitime.org/uct_exams.php
-[events]: https://www.unitime.org/uct_events.php
-[students]: https://www.unitime.org/uct_students.php
-[help]: https://help.unitime.org
 [install]: https://help.unitime.org/installation
-[demo]: https://demo.unitime.org
-[builds]: https://builds.unitime.org
-[xml]: https://www.unitime.org/uct_interfaces.php
-[publications]: https://www.unitime.org/publications.php
-[downloads]: https://sourceforge.net/projects/unitime/files
 [build]: https://help.unitime.org/building-unitime
 [eclipse]: https://help.unitime.org/eclipse
-[docs]: https://bit.ly/unitime46docs
-[apereo]: https://www.apereo.org
 [customization]: https://help.unitime.org/customizations
 [localization]: https://help.unitime.org/localization
+[unitime]: https://www.unitime.org/
+[pereo]: https://www.apereo.org/
+[timetablingcode]: https://sourceforge.net/p/unitime/code/ci/master/tree/JavaSource/org/unitime/timetable/
