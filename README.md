@@ -48,7 +48,7 @@ UniTime is a comprehensive educational scheduling system that supports developin
   - Exception Handling.
   - Implementation Details.
   - Functional Requirements.
-  During the process of system comprehension, we found that we need to have more general knowledge about the system (i.e., what the system does, system main features,   system domain, system type and licenses).
+- During the process of system comprehension, we found that we need to have more general knowledge about the system (i.e., what the system does, system main features,   system domain, system type and licenses).
 ### Comprehension Goal
 - Collecting more information about the source code itself to help in refactoring and bugs trouble-shooting.
 ### Comprehension Scope
