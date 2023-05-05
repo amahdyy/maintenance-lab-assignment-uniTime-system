@@ -1,0 +1,13 @@
+bug 1
+overrides hashcode in AcademicSessionProvider.java
+AcademicSessionProvider.java
+This class overrides "equals()" and should therefore also override "hashCode()".	
+/UniTime/JavaSource/org/unitime/timetable/gwt/shared/AcademicSessionProvider.java
+
+
+
+
+bug 2
+ Fix NullPointerException in AbstractReport.java
+A "NullPointerException" could be thrown; "o" is nullable here.
+/UniTime/JavaSource/org/unitime/timetable/reports/AbstractReport.java
