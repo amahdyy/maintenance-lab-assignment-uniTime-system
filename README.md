@@ -61,8 +61,7 @@ UniTime is a comprehensive educational scheduling system that supports developin
     In this approach, the programmer first identifies program plans from source code, makes annotations, and moves up to the top, goal layer.
   - Opportunistic (that we used in system comprehension process):
     In this approach, we have been able to combine the above two approaches to take best advantage of whatever opportunity is available to make best progress in terms     of knowledge gain at any given time.
-- We started with top-down to gain an overview of the functions of the program. Then selectively applied bottom-up strategies when nearing “code level” to verify       
-  hypotheses resulting from top-down reading.
+- We started with top-down to gain an overview of the functions of the program. Then selectively applied bottom-up strategies when nearing “code level” to verify         hypotheses resulting from top-down reading.
 # Tutorials
 - [Installation Instructions][install]
 - [Building UniTime][build]
