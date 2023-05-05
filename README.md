@@ -25,13 +25,15 @@
 
 # Comprehensive University Timetabling System (UniTime)
 UniTime is a comprehensive educational scheduling system that supports developing course and exam timetables, managing changes to these timetables, sharing rooms with other events, and scheduling students to individual classes. It is a distributed system that allows multiple university and departmental schedule managers to coordinate efforts to build and modify a schedule that meets their diverse organizational needs while allowing for minimization of student course conflicts. It can be used alone to create and maintain a school's schedule of classes and/or exams, or interfaced with an existing student information system.
-### Category(ies):
-- Scheduling, Education.
+### System Domain:
+- Scheduling.
+- Education.
 ### Main Features: 
-- Student Scheduling.
 - Event Management.
+- Course Management.
+- Student Scheduling.
+- Course Timetabling.
 - Examination Timetabling.
-- Course Timetabling & Management.
 ### System Type and Licenses:
 - The system was originally developed as a collaborative effort by faculty, students, and staff at universities in North America and Europe. 
 - The software is distributed free under an open source license in hopes that other colleges and universities can benefit their students.
@@ -40,13 +42,35 @@ UniTime is a comprehensive educational scheduling system that supports developin
 - Linux.
 - Mac.
 - Windows.
-### Tutorials
+# System Comprehension
+### Knowledge Kind
+• software-specific knowledge:
+  - Exception Handling.
+  - Implementation Details.
+  - Functional Requirements.
+  During the process of system comprehension, we found that we need to have more general knowledge about the system (i.e., what the system does, system main features,   system domain, system type and licenses).
+### Comprehension Goal
+• Collecting more information about the source code itself to help in refactoring and bugs trouble-shooting.
+### Comprehension Scope
+• partial understanding of source code.
+### Comprehension Approach
+• The system comprehension process can work in three Approaches:
+  - Top-Down:
+    In this approach, the programmer first identifies the goals of the program, followed by possible implementations of those goals such that the implementations 
+    match against the code.
+  - Bottom-Up:
+    In this approach, the programmer first identifies program plans from source code, makes annotations, and moves up to the top, goal layer.
+  - Opportunistic (that we used in system comprehension process):
+    In this approach, we have been able to combine the above two approaches to take best advantage of whatever opportunity is available to make best progress in terms     of knowledge gain at any given time.
+• We started with top-down to gain an overview of the functions of the program. Then selectively applied bottom-up strategies when nearing “code level” to verify    
+  hypotheses resulting from top-down reading.
+# Tutorials
 - [Installation Instructions][install]
 - [Building UniTime][build]
 - [Setting up UniTime in Eclipse][eclipse]
 - [Customization][customization]
 - [Localization][localization]
-### Links
+# Links
 - [Unitime.org][unitime]
 - [Pereo Foundation][pereo]
 - [University Timetabling Code][timetablingcode]
